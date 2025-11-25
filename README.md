@@ -25,5 +25,9 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 3. Next select the "Add" button under Network List
 <img width="901" height="463" alt="Screenshot 2025-11-25 at 2 21 58 PM" src="https://github.com/user-attachments/assets/39542881-5061-4567-ae6b-ad0bf79abfb1" />
 
-You'll be given this form to fill out.
+You'll be given the following form to fill out.
+
+For this lab, I will be using VLAN 20 for the printer.
+|Name  |Printer  | this is just the name of the VLAN Network
+|IP Address  | 192.168.20.1  |
 <img width="802" height="818" alt="Screenshot 2025-11-25 at 2 23 42 PM" src="https://github.com/user-attachments/assets/c4401190-41cd-445b-a3bc-b645fc100428" />
