@@ -29,9 +29,19 @@ You'll be given the following form to fill out.
 
 For this lab, I will be using VLAN 20 for the printer.
 
-|Request     | Input         |
+|Form        | Input         |
 |------------|---------------|
 |Name        |Printer        |
 |IP Address  | 192.168.20.1  | 
+|Subnet      |255.255.255.0  |
+|Mode        |Normal         |
+|VLAN        |20             |
+|DHCP Mode   |DHCP Server    |
+|Status      |Enable         |
+|Starting IP |192.168.20.100 |
+|Ending IP   |192.168.20.199 |
+|Lease Time  |120            |
+
+The remaining options were left blank.
 
 <img width="802" height="818" alt="Screenshot 2025-11-25 at 2 23 42 PM" src="https://github.com/user-attachments/assets/c4401190-41cd-445b-a3bc-b645fc100428" />
