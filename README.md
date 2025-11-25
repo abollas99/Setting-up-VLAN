@@ -18,4 +18,12 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 ###### Since this is the first time setting it up it will ask you to create a password for the log in. 
 2. Once you are logged in navigate to Network > LAN and you should be greeted to the page below.
 
-<img width="1271" height="606" alt="Screenshot 2025-11-25 at 2 11 35 PM" src="https://github.com/user-attachments/assets/4e3c191c-0b5c-41e6-a353-8a4d8c06a3fc" />
+<img width="1097" height="649" alt="Screenshot 2025-11-25 at 2 17 06 PM" src="https://github.com/user-attachments/assets/58f7f745-cb85-40b5-8b7d-449c8ee87c0e" />
+
+###### Your network list will just display VLAN 1
+
+3. Next select the "Add" button under Network List
+<img width="901" height="463" alt="Screenshot 2025-11-25 at 2 21 58 PM" src="https://github.com/user-attachments/assets/39542881-5061-4567-ae6b-ad0bf79abfb1" />
+
+You'll be given this form to fill out.
+<img width="802" height="818" alt="Screenshot 2025-11-25 at 2 23 42 PM" src="https://github.com/user-attachments/assets/c4401190-41cd-445b-a3bc-b645fc100428" />
