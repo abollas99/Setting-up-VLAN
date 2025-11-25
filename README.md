@@ -17,7 +17,7 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 <br>
 
 1. Once the ER605 has been plugged in and you’re on a device with access to its network, navigate to <strong>192.168.0.1</strong>.
-2. 
+   
 ###### Since this is the first time setting it up it will ask you to create a password for the log in. 
 
 <br>
@@ -58,6 +58,7 @@ Once finished you will have another VLAN under Network List.
 
 <img width="849" height="472" alt="Screenshot 2025-11-25 at 2 45 12 PM" src="https://github.com/user-attachments/assets/d3cedb98-d46b-4385-9804-439251d1ebed" />
 
+<hr>
 <br>
 
 4. Next navigate to DHCP list and find the assigned IP to your network swtich. In this case it is <strong>192.168.0.101<strong>.
