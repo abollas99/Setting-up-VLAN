@@ -41,4 +41,10 @@ For this lab, I will be using VLAN 20 for the printer.
 |Lease Time  |120            |
 
 The remaining options were left blank.
+Once finished you will have another VLAN under Network List.
 
+<img width="849" height="472" alt="Screenshot 2025-11-25 at 2 45 12 PM" src="https://github.com/user-attachments/assets/d3cedb98-d46b-4385-9804-439251d1ebed" />
+
+4. Next navigate to DHCP list and find the assigned IP to your network swtich. In this case it is <strong>192.168.0.101<strong>.
+
+<img width="819" height="364" alt="Screenshot 2025-11-25 at 2 53 16 PM" src="https://github.com/user-attachments/assets/49d19dc1-04a2-4118-b334-3eead362c7a5" />
