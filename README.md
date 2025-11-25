@@ -29,6 +29,8 @@ You'll be given the following form to fill out.
 
 For this lab, I will be using VLAN 20 for the printer.
 
+|Request     | Input         |
+|------------|---------------|
 |Name        |Printer        |
 |IP Address  | 192.168.20.1  | 
 
