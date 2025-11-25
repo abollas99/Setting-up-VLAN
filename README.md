@@ -6,7 +6,6 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 - TP-Link SG608E [Click here to Buy](https://www.homedepot.com/p/TP-LINK-8-Port-Gigabit-Easy-Smart-Switch-TL-SG608E/323833005), [Official Support Page](https://www.tp-link.com/us/support/download/tl-sg608e/)
 
 ###### My setup can be improved with an Omada controller and a supported Omada switch. These are the resources I currently have to work with. Once I obtain an Omada controller, I can create another repository describing the process. 
-
 - Configure Router and obtain the Ip of the switch
 - configure the switch
 - return to the router and set up access control
@@ -45,7 +44,7 @@ For this lab, I will be using VLAN 20 for the printer.
 |Form        | Input         |
 |------------|---------------|
 |Name        |Printer        |
-|IP Address  | 192.168.20.1  | 
+|IP Address  |192.168.20.1  | 
 |Subnet      |255.255.255.0  |
 |Mode        |Normal         |
 |VLAN        |20             |
@@ -68,3 +67,23 @@ Once finished you will have another VLAN under Network List.
 <br>
 
 <img width="819" height="364" alt="Screenshot 2025-11-25 at 2 53 16 PM" src="https://github.com/user-attachments/assets/49d19dc1-04a2-4118-b334-3eead362c7a5" />
+
+# Configure Switch
+
+1. Navigate to the ip of your switch. Once you have logged in the screen should appear like the image below.
+
+<img width="1108" height="475" alt="Screenshot 2025-11-25 at 3 24 20 PM" src="https://github.com/user-attachments/assets/677d55b5-9f0a-4e7e-ae66-9ff76b1878ab" />
+
+2. Navigate to the VLAN > 802.1Q VLAN section. Since this is not an Omada switch and I don’t have an Omada controller, we need to add the VLAN here as well.
+
+<img width="759" height="403" alt="Screenshot 2025-11-25 at 3 27 42 PM" src="https://github.com/user-attachments/assets/92caea8b-18ae-49d5-b762-bd07aa63da16" />
+  
+- Before adding the VLAN you want to enable "802.1Q VLAN configuration" at the top and hit apply. Once that is complete we will add a VLAN by filling "VLAN ID" as 20 and "VLAN Name" as Printer. Now, you’ll need to identify which ports on your switch are connected to your router and printer. For me the router is on Port 8 and the printer is on Port 2. For your router port you want to select tagged and for your printer port you want to select untagged. The remaining ports will be left under "Not Member". Once you have adjusted the correct ports hit "Add/Modify". Below is what it looks like for me.
+
+<img width="671" height="81" alt="Screenshot 2025-11-25 at 3 31 58 PM" src="https://github.com/user-attachments/assets/321c9080-9a63-4b7c-9f93-0ac9d8a7fa55" />
+
+3. Now you want to navigate to "802.1Q PVID Setting" in the VLAN menu. 
+
+- You are going to select the port for your printer and change the "PVID" to your VLAN. For me it was port 2 and set the "PVID" to 20.
+
+<img width="721" height="422" alt="Screenshot 2025-11-25 at 3 36 08 PM" src="https://github.com/user-attachments/assets/1031d4e4-5b2a-4aa2-ae03-2446ff68c388" />
