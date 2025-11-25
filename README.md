@@ -84,6 +84,25 @@ Once finished you will have another VLAN under Network List.
 
 3. Now you want to navigate to "802.1Q PVID Setting" in the VLAN menu. 
 
-- You are going to select the port for your printer and change the "PVID" to your VLAN. For me it was port 2 and set the "PVID" to 20.
+- You are going to select the port for your printer and change the "PVID" to your VLAN. For me it was port 2 and set the "PVID" to 20. After you hit apply your VLAN 20 will be created.
 
 <img width="721" height="422" alt="Screenshot 2025-11-25 at 3 36 08 PM" src="https://github.com/user-attachments/assets/1031d4e4-5b2a-4aa2-ae03-2446ff68c388" />
+
+4. To test if you were successful navigate back to your router which will be at 192.168.0.1. Once there go to Network > LAN then in the tabs above select DHCP Client List. Now manually unplug your printer port and plug it back in. This should reset the lease time. When you hit refresh you should see an ip address that will be somewhat like 192.168.20.100. If you do not see this go back and recheck all the settings. Make sure you hit apply to all the changes you made.
+
+# Configuring VLAN Rules
+
+1. For us to configure the VLAN rules we have to go into the firewall settings of the router. In the router we are using navigate to FIrewall > Access Control. Once there you will see an empty list. Click add for us to add our first rule.
+
+|Form|Input|
+|----|-----|
+|Name|Block_Printer_Outbound|
+|Policy|Block|
+|Service Type|ALL|
+|IP Type|IPv4|
+|Direction|LAN->LAN|
+|Source Network|Printer|
+|Destination Network|LAN|
+|Effective Time|Any|
+|States|Leave as Default|
+|ID|*Leave Empty*|
