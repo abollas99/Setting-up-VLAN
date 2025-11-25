@@ -20,6 +20,7 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
    
 ###### Since this is the first time setting it up it will ask you to create a password for the log in. 
 
+<hr>
 <br>
 
 2. Once you are logged in navigate to Network > LAN and you should be greeted to the page below.
@@ -30,6 +31,7 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 
 ###### Your network list will just display VLAN 1
 
+<hr>
 <br>
 
 3. Next select the "Add" button under Network List and it will provide a form for you to fill out.
