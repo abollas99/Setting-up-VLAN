@@ -13,19 +13,20 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 - ping device to test
 
 # Configure Router
-
+<br>
 1. Once the ER605 has been plugged in and you’re on a device with access to its network, navigate to <strong>192.168.0.1</strong>.
 ###### Since this is the first time setting it up it will ask you to create a password for the log in. 
-<hr>
 <br>
 2. Once you are logged in navigate to Network > LAN and you should be greeted to the page below.
+<br>
 
 <img width="1097" height="649" alt="Screenshot 2025-11-25 at 2 17 06 PM" src="https://github.com/user-attachments/assets/58f7f745-cb85-40b5-8b7d-449c8ee87c0e" />
 
 ###### Your network list will just display VLAN 1
-<hr>
 <br>
 3. Next select the "Add" button under Network List and it will provide a form for you to fill out.
+<br>
+
 <img width="901" height="463" alt="Screenshot 2025-11-25 at 2 21 58 PM" src="https://github.com/user-attachments/assets/39542881-5061-4567-ae6b-ad0bf79abfb1" />
 
 For this lab, I will be using VLAN 20 for the printer.
@@ -47,8 +48,7 @@ The remaining options were left blank.
 Once finished you will have another VLAN under Network List.
 
 <img width="849" height="472" alt="Screenshot 2025-11-25 at 2 45 12 PM" src="https://github.com/user-attachments/assets/d3cedb98-d46b-4385-9804-439251d1ebed" />
-<hr>
 <br>
 4. Next navigate to DHCP list and find the assigned IP to your network swtich. In this case it is <strong>192.168.0.101<strong>.
-
+<br>
 <img width="819" height="364" alt="Screenshot 2025-11-25 at 2 53 16 PM" src="https://github.com/user-attachments/assets/49d19dc1-04a2-4118-b334-3eead362c7a5" />
