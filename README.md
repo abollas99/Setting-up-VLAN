@@ -92,7 +92,7 @@ Once finished you will have another VLAN under Network List.
 
 # Configuring VLAN Rules
 
-1. For us to configure the VLAN rules we have to go into the firewall settings of the router. In the router we are using navigate to FIrewall > Access Control. Once there you will see an empty list. Click add for us to add our first rule.
+1. For us to configure the VLAN rules we have to go into the firewall settings of the router. In the router navigate to FIrewall > Access Control. Once there you will see an empty list. Click add and fill it as shown below.
 
 |Form|Input|
 |----|-----|
@@ -106,3 +106,6 @@ Once finished you will have another VLAN under Network List.
 |Effective Time|Any|
 |States|Leave as Default|
 |ID|*Leave Empty*|
+
+- Once completed you should have working VLAN 20 that cannot access your main network but can be accesssed from the main network.
+- If you would like to test access from VLAN 1 to VLAN 20 you can run ```ping 192.168.20.100``` in the terminal which should display that your device can access it.
