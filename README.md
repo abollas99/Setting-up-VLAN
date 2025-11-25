@@ -22,10 +22,8 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 
 ###### Your network list will just display VLAN 1
 
-3. Next select the "Add" button under Network List
+3. Next select the "Add" button under Network List and it will provide a form for you to fill out.
 <img width="901" height="463" alt="Screenshot 2025-11-25 at 2 21 58 PM" src="https://github.com/user-attachments/assets/39542881-5061-4567-ae6b-ad0bf79abfb1" />
-
-You'll be given the following form to fill out.
 
 <img width="802" height="818" alt="Screenshot 2025-11-25 at 2 23 42 PM" src="https://github.com/user-attachments/assets/c4401190-41cd-445b-a3bc-b645fc100428" />
 
