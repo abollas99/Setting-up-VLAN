@@ -21,7 +21,7 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 <img width="1097" height="649" alt="Screenshot 2025-11-25 at 2 17 06 PM" src="https://github.com/user-attachments/assets/58f7f745-cb85-40b5-8b7d-449c8ee87c0e" />
 
 ###### Your network list will just display VLAN 1
-
+<br>
 3. Next select the "Add" button under Network List and it will provide a form for you to fill out.
 <img width="901" height="463" alt="Screenshot 2025-11-25 at 2 21 58 PM" src="https://github.com/user-attachments/assets/39542881-5061-4567-ae6b-ad0bf79abfb1" />
 
