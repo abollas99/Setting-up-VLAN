@@ -44,6 +44,7 @@ The remaining options were left blank.
 Once finished you will have another VLAN under Network List.
 
 <img width="849" height="472" alt="Screenshot 2025-11-25 at 2 45 12 PM" src="https://github.com/user-attachments/assets/d3cedb98-d46b-4385-9804-439251d1ebed" />
+<hr>
 
 4. Next navigate to DHCP list and find the assigned IP to your network swtich. In this case it is <strong>192.168.0.101<strong>.
 
