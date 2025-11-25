@@ -27,6 +27,8 @@ I recently bought a new router and wanted to experiment with VLANs, which are co
 
 You'll be given the following form to fill out.
 
+<img width="802" height="818" alt="Screenshot 2025-11-25 at 2 23 42 PM" src="https://github.com/user-attachments/assets/c4401190-41cd-445b-a3bc-b645fc100428" />
+
 For this lab, I will be using VLAN 20 for the printer.
 
 |Form        | Input         |
@@ -44,4 +46,3 @@ For this lab, I will be using VLAN 20 for the printer.
 
 The remaining options were left blank.
 
-<img width="802" height="818" alt="Screenshot 2025-11-25 at 2 23 42 PM" src="https://github.com/user-attachments/assets/c4401190-41cd-445b-a3bc-b645fc100428" />
